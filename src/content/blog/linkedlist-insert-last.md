@@ -21,15 +21,16 @@ description:
 
 LinkedList adalah struktur data linear di mana setiap elemen disebut node, dan setiap node memiliki dua bagian: data dan referensi ke node berikutnya dalam urutan.
 
-## Insert First
+## Insert Last
 
-Fungsi insertFirst pada LinkedList digunakan untuk memasukkan elemen baru ke awal LinkedList. Langkah-langkahnya adalah:
+Fungsi insertLast pada linked list digunakan untuk menyisipkan elemen baru di akhir linked list. Berikut adalah langkah-langkahnya:
 
-1. Buat node baru dengan nilai yang ingin dimasukkan.
-2. Atur referensi node baru untuk menunjuk ke node yang saat ini berada di awal LinkedList.
-3. Atur head (kepala) LinkedList untuk menunjuk ke node baru yang baru saja dibuat.
+1. Buat node baru: Buat node baru dengan nilai yang ingin disisipkan. Node ini akan menjadi node terakhir dalam linked list setelah operasi penyisipan.
+2. Temukan node terakhir: Temukan node terakhir dalam linked list. Ini dapat dilakukan dengan menelusuri linked list dari awal hingga node yang next pointernya bernilai nullptr (null).
+3. Hubungkan node baru: Hubungkan node baru ke node terakhir. Hal ini dilakukan dengan mengatur next pointer dari node terakhir untuk menunjuk ke node baru.
+4. Perbarui head (opsional): Dalam beberapa kasus, operasi insertLast mungkin memerlukan pembaruan pointer head jika linked list awalnya kosong. Hal ini terjadi ketika linked list kosong dan node baru menjadi node pertama.
 
-Dengan melakukan langkah-langkah ini, elemen baru berhasil dimasukkan ke awal LinkedList, dan elemen-elemen yang sebelumnya ada dipindahkan ke posisi setelahnya.
+Dengan melakukan langkah-langkah ini, elemen baru berhasil dimasukkan ke akhir LinkedList, dan node lama terhubung dengan node terbaru.
 
 ## Import Library
 
