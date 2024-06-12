@@ -1,7 +1,7 @@
 ---
 author: Nasheh Annafii
-pubDatetime: 2024-06-12T08:22:00Z
-modDatetime: 2024-06-12T09:12:47.400Z
+pubDatetime: 2024-06-12T08:00:00Z
+modDatetime: 2024-06-12T08:00:47.400Z
 title: Create User MySql
 slug: create-user-mysql
 featured: true
@@ -13,6 +13,7 @@ description:
   How to create user on MySql? Tutorial creating user on 
   MySql.
 ---
+
 
 ## Table of contents
 
