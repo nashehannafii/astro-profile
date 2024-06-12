@@ -3,7 +3,7 @@ author: Nasheh Annafii
 pubDatetime: 2024-06-12T08:00:00Z
 modDatetime: 2024-06-12T08:00:47.400Z
 title: Install MySql
-slug: install-mysql
+slug: install-mysqli
 featured: true
 draft: false
 tags:
