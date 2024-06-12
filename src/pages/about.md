@@ -8,7 +8,7 @@ title: "About"
 </div>
 
 - Nama: Moch. Nasheh Annafii
-- Pendidikan: Lulusan Teknik Informatika, Universitas Darussalam Gontor, 2019
+- Pendidikan: Teknik Informatika, Universitas Darussalam Gontor, 2019
 - Jabatan: Peneliti dan Programmer, Universitas Darussalam Gontor
 
 ## Profil
