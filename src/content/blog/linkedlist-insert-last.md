@@ -132,6 +132,7 @@ Dengan loop while dan pembaruan pointer current, fungsi ini akan terus mencetak 
 int main() {
     Node* head = nullptr;
 
+    insertLast(&head, 1);
     insertLast(&head, 3);
     insertLast(&head, 5);
     insertLast(&head, 7);
@@ -146,6 +147,7 @@ int main() {
 ## Hasil Compile
 ```ts
 Linked List : 
+Alamat: 0x194c320 - Data: 1 - Alamat Next: 0x194beb0
 Alamat: 0x194beb0 - Data: 3 - Alamat Next: 0x194bed0
 Alamat: 0x194bed0 - Data: 5 - Alamat Next: 0x194bef0
 Alamat: 0x194bef0 - Data: 7 - Alamat Next: 0
