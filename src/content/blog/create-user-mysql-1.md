@@ -14,8 +14,6 @@ description:
   MySql.
 ---
 
-## Table of contents
-
 ## MySql
 
 Pastikan anda sudah menginstall [MySql](/posts/install-mysql)!
