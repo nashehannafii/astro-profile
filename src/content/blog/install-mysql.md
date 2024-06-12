@@ -1,7 +1,7 @@
 ---
 author: Nasheh Annafii
-pubDatetime: 2022-09-23T15:22:00Z
-modDatetime: 2023-12-21T09:12:47.400Z
+pubDatetime: 2024-06-11T21:22:00Z
+modDatetime: 2024-06-11T23:12:47.400Z
 title: Install MySql
 slug: install-mysqli
 featured: true
