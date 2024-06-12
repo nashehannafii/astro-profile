@@ -8,12 +8,12 @@ title: "About"
 </div>
 
 - Nama: Moch. Nasheh Annafii
-- Pendidikan: Teknik Informatika, Universitas Darussalam Gontor, 2019
+- Pendidikan: Informatika, Universitas Darussalam Gontor, 2022
 - Jabatan: Peneliti dan Programmer, Universitas Darussalam Gontor
 
 ## Profil
 
-Moch. Nasheh Annafii adalah seorang peneliti dan programmer yang bekerja di Universitas Darussalam Gontor. Ia lulus dari program Teknik Informatika di universitas yang sama pada tahun 2019. Sebagai seorang peneliti, ia telah menerbitkan tiga publikasi ilmiah yang mencakup berbagai topik dalam bidang teknologi informasi dan komunikasi. Beberapa publikasi yang sudah diterbitkan antara lain:
+Moch. Nasheh Annafii adalah seorang peneliti dan programmer yang bekerja di Universitas Darussalam Gontor. Ia lulus dari program Teknik Informatika di universitas yang sama pada tahun 2022. Sebagai seorang peneliti, ia telah menerbitkan tiga publikasi ilmiah yang mencakup berbagai topik dalam bidang teknologi informasi dan komunikasi. Beberapa publikasi yang sudah diterbitkan antara lain:
 1. [Semantic Segmentation of Rice Leaf Blast Disease using Optimized U-Net](https://ieeexplore.ieee.org/document/10037550) (International Conference on Computer Engineering, Network and Intelligent Multimedia, 2022)​
 2. [Segmentasi Semantik pada Citra Hama Leafblast Menggunakan Unet dan Optimasi Hyperband](https://publikasiilmiah.unwahas.ac.id/index.php/PROSIDING_SNST_FT/article/view/7230) (Prosiding Seminar Nasional Unwahas, 2022)
 3. [Klasifikasi Tingkat Keparahan Penyakit Leafblast Tanaman Padi Menggunakan MobileNetv2](https://ejournal.unida.gontor.ac.id/index.php/FIJ/article/view/9419) (Fountain of Informatics, 2022)
