@@ -10,7 +10,8 @@ tags:
   - mysql
   - tutorial
 description:
-  How to create user on MySql? Tutorial creating user on MySql.
+  How to create user on MySql? Tutorial creating user on 
+  MySql.
 ---
 
 ## MySql

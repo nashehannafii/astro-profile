@@ -10,7 +10,8 @@ tags:
   - mysql
   - tutorial
 description:
-  How to install MySql? Tutorial install MySql.
+  How to install MySql? Tutorial install 
+  MySql.
 ---
 
 ## Windows
