@@ -1,16 +1,16 @@
 ---
 author: Nasheh Annafii
-pubDatetime: 2024-06-11T21:22:00Z
-modDatetime: 2024-06-11T23:12:47.400Z
-title: LinkedList [01. Insert First]
-slug: linkedlist-insert-first
+pubDatetime: 2024-06-12T21:22:00Z
+modDatetime: 2024-06-12T23:12:47.400Z
+title: LinkedList [02. Insert Last]
+slug: linkedlist-insert-last
 featured: true
 draft: false
 tags:
   - cpp
   - alpro
 description:
-  Implementasi Insert First LinkedList menggunakan
+  Implementasi Insert Last LinkedList menggunakan
   C++.
 ---
 
@@ -53,10 +53,10 @@ Baris ini mendefinisikan struktur kustom bernama Node. Ini berfungsi sebagai blo
 1. int data: Variabel anggota ini di dalam struktur Node menyimpan nilai data aktual yang akan disimpan oleh setiap node dalam linked list.
 2. Node* next: Variabel anggota ini adalah pointer yang menunjuk ke node berikutnya dalam linked list. Ini memungkinkan node untuk dihubungkan bersama, membentuk struktur seperti rantai pada linked list.
 
-## Add Node Normal
+## Insert Last
 
 ```ts
-void append(Node** head_ref, int new_data) {
+void insertLast(Node** head_ref, int new_data) {
     Node* new_node = new Node();
     Node* last = *head_ref;
 
@@ -93,29 +93,6 @@ Berikut rincian langkah-langkah fungsi:
 6. while (last->next != nullptr): Loop ini berulang hingga mencapai node terakhir dalam list.
 7. last = last->next;: Memindahkan pointer last ke node berikutnya dalam list.
 8. last->next = new_node;: Setelah loop selesai, last menunjuk ke node terakhir. Baris ini mengatur pointer next dari node terakhir untuk menunjuk ke new_node yang baru dibuat, secara efektif menambahkannya ke akhir list.
-
-## Insert First Node
-```ts
-void insertFirst(Node** head_ref, int new_data) {
-    Node* new_node = new Node();
-    new_node->data = new_data;
-    new_node->next = *head_ref;
-    *head_ref = new_node;
-}
-```
-Fungsi ini memasukkan node baru dengan nilai data tertentu (new_data) di awal linked list.
-
-Ia mengambil dua argumen:
-
-- Node** head_ref: Serupa dengan fungsi append, ini adalah pointer ganda yang menunjuk ke head dari linked list.
-- int new_data: Nilai integer yang akan disimpan dalam member data node baru.
-
-Berikut cara penyisipan terjadi:
-
-1. Node* new_node = new Node(): Membuat objek Node baru secara dinamis menggunakan new dan menetapkannya ke new_node.
-2. new_node->data = new_data;: Mengatur member data dari node baru ke nilai new_data yang disediakan.
-3. new_node->next = *head_ref;: Mengatur pointer next dari node baru untuk menunjuk ke head current dari list. Ini secara efektif menjadikan node baru sebagai node pertama.
-4. *head_ref = new_node;: Memperbarui pointer head untuk menunjuk ke node yang baru dibuat, mencerminkan perubahan pada head list.
 
 ## Print LinkedList
 ```ts
@@ -154,18 +131,12 @@ Dengan loop while dan pembaruan pointer current, fungsi ini akan terus mencetak 
 int main() {
     Node* head = nullptr;
 
-    append(&head, 3);
-    append(&head, 5);
-    append(&head, 7);
+    insertLast(&head, 3);
+    insertLast(&head, 5);
+    insertLast(&head, 7);
 
-    std::cout << "Linked List (Before): " << std::endl;
+    std::cout << "Linked List : " << std::endl;
     printLinkedListWithAddress(head);
-    
-    insertFirst(&head, 1);
-
-    std::cout << "Linked List (After): " << std::endl;
-    printLinkedListWithAddress(head);
-
 
     return 0;
 }
@@ -173,15 +144,11 @@ int main() {
 
 ## Hasil Compile
 ```ts
-Linked List (Before): 
+Linked List : 
 Alamat: 0x194beb0 - Data: 3 - Alamat Next: 0x194bed0
 Alamat: 0x194bed0 - Data: 5 - Alamat Next: 0x194bef0
 Alamat: 0x194bef0 - Data: 7 - Alamat Next: 0
-Linked List (After): 
-Alamat: 0x194c320 - Data: 1 - Alamat Next: 0x194beb0
-Alamat: 0x194beb0 - Data: 3 - Alamat Next: 0x194bed0
-Alamat: 0x194bed0 - Data: 5 - Alamat Next: 0x194bef0
-Alamat: 0x194bef0 - Data: 7 - Alamat Next: 0
+
 
 
 === Code Execution Successful ===
