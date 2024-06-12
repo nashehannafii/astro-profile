@@ -2,15 +2,15 @@
 author: Sat Naing
 pubDatetime: 2024-06-12T08:22:00Z
 modDatetime: 2024-12-21T09:12:47.400Z
-title: Install Mysql
-slug: install-mysql
+title: How To Install Mysql
+slug: how-to-install-mysql
 featured: true
 draft: false
 tags:
   - docs
 description:
-  Some rules & recommendations for creating or adding new posts using AstroPaper
-  theme.
+  How to install MySql? Tutorial install 
+  MySql.
 ---
 
 Here are some rules/recommendations, tips & ticks for creating new posts in AstroPaper blog theme.
