@@ -1,7 +1,7 @@
 ---
 author: Nasheh Annafii
-pubDatetime: 2024-06-11T15:22:00Z
-modDatetime: 2024-06-11T09:12:47.400Z
+pubDatetime: 2024-06-11T21:22:00Z
+modDatetime: 2024-06-11T23:12:47.400Z
 title: LinkedList [Insert First]
 slug: linkedlist-insert-first
 featured: true
@@ -31,7 +31,7 @@ Fungsi insertFirst pada LinkedList digunakan untuk memasukkan elemen baru ke awa
 
 Dengan melakukan langkah-langkah ini, elemen baru berhasil dimasukkan ke awal LinkedList, dan elemen-elemen yang sebelumnya ada dipindahkan ke posisi setelahnya.
 
-## Export
+## Import Library
 
 ```ts
 #include <iostream>
