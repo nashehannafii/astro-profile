@@ -26,6 +26,9 @@ Selain kontribusinya dalam penelitian, Nasheh juga aktif mengembangkan aplikasi 
 5. LISA, Library Information System UNIDA,
 6. etc...
 
+Berikut adalah daftar karya Moch. Nasheh Annafii yang telah tercatat dan dilindungi hak ciptanya:
+1. [Sistem Informasi Mutu UNIDA (SIMUDA), No. Permohonan EC00202307063, No. Pencatatan 000439985](https://pdki-indonesia.dgip.go.id/detail/b3f002e3e89aaffb7d88f98f2e78af562172dd38bd2f44eed29272fc46f1ec26?nomor=EC00202307063&type=copyright&keyword=simuda%20gontor)
+
 ### Kontak
 
 - Email: [nashehannafii@unida.gontor.ac.id](mailto:nashehannafii@unida.gontor.ac.id)
