@@ -51,6 +51,7 @@ Untuk menginstall MySQL di Ubuntu, ikuti langkah-langkah berikut:
 
     ```ts
     sudo systemctl status mysql
+    ```
 
 Anda seharusnya melihat pesan yang menunjukkan bahwa MySQL aktif dan berjalan.
 
@@ -61,6 +62,7 @@ Anda seharusnya melihat pesan yang menunjukkan bahwa MySQL aktif dan berjalan.
 
     ```ts
     sudo mysql -u root -p
+    ```
 
 Masukkan kata sandi yang telah Anda atur selama proses keamanan.
 

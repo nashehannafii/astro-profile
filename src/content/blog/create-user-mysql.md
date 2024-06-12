@@ -39,6 +39,7 @@ Berikut adalah langkah-langkah untuk membuat pengguna (user) baru di MySQL:
 
     ```ts
     CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
+    ```
 
 3. Berikan Hak Akses (Privileges):
 
@@ -46,6 +47,7 @@ Berikut adalah langkah-langkah untuk membuat pengguna (user) baru di MySQL:
 
     ```ts
     GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost';
+    ```
 
 <!-- 4. Jika Anda ingin memberikan hak akses hanya pada beberapa perintah, Anda bisa spesifik:
 
@@ -58,6 +60,7 @@ Berikut adalah langkah-langkah untuk membuat pengguna (user) baru di MySQL:
 
     ```ts
     FLUSH PRIVILEGES;
+    ```
 
 5. Verifikasi User Baru:
 
@@ -65,6 +68,7 @@ Berikut adalah langkah-langkah untuk membuat pengguna (user) baru di MySQL:
     
     ```ts
     SELECT user, host FROM mysql.user;
+    ```
 
 6. Keluar dari MySQL:
 
@@ -72,6 +76,7 @@ Berikut adalah langkah-langkah untuk membuat pengguna (user) baru di MySQL:
     
     ```ts
     EXIT;
+    ```
 
 
 Dengan mengikuti langkah-langkah di atas, Anda seharusnya dapat membuat user baru di MySQL dan memberikan hak akses yang sesuai.
