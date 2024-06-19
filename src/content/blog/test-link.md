@@ -18,6 +18,5 @@ description:
 
 ## Test Link
 
-[Shopee](shopee://homepage).
-
-[Khizanatuna](khizanatuna://).
+- [Open Shopee](shopee://)
+- [Open Shopee Homepage](shopee://homepage)
