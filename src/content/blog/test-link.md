@@ -18,6 +18,7 @@ description:
 
 ## Test Link
 
+- [Open Shopee](https://shopee.com)
 - [Open Shopee](shopee://)
 - [Open Shopee](Shopee://)
 - [Open Shopee Homepage](shopee://homepage)
