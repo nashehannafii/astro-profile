@@ -18,7 +18,7 @@ Moch. Nasheh Annafii adalah seorang peneliti dan programmer yang bekerja di Univ
 1. [Semantic Segmentation of Rice Leaf Blast Disease using Optimized U-Net](https://ieeexplore.ieee.org/document/10037550) (International Conference on Computer Engineering, Network and Intelligent Multimedia, 2022)​
 2. [Human Digital Twin Modeling for Cardiovascular System](https://journal.unnes.ac.id/journals/sji/article/view/16012) (Scientific Journal of Informatics, 2025)
 3. [Klasifikasi Tingkat Keparahan Penyakit Leafblast Tanaman Padi Menggunakan MobileNetv2](https://ejournal.unida.gontor.ac.id/index.php/FIJ/article/view/9419) (Fountain of Informatics, 2022)
-4. etc...
+4. [etc...](https://scholar.google.com/citations?user=g-D2WqoAAAAJ&hl=en&authuser=1&oi=sra)
 
 Selain kontribusinya dalam penelitian, Nasheh juga aktif mengembangkan aplikasi yang digunakan di lingkungan kampus Universitas Darussalam Gontor. Beberapa proyeknya aplikasi antara lain:
 
