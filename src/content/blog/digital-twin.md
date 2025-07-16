@@ -1,8 +1,8 @@
 ---
-author: Tech Explorer
-pubDatetime: 2023-11-15T09:00:00.000Z
-title: Digital Twin 101 - Understanding the Basics
-slug: digital-twin-basics
+author: Nasheh Annafii
+pubDatetime: 2025-07-16T14:30:00.000Z
+title: Digital Twin - Understanding the Basics
+slug: understanding-digital-twin
 featured: true
 draft: false
 tags:
