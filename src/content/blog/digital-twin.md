@@ -1,6 +1,6 @@
 ---
 author: Nasheh Annafii
-pubDatetime: 2025-07-16T02:00:00.000Z
+pubDatetime: 2025-07-16T10:00:00.000Z
 title: Digital Twin - Understanding the Basics
 slug: understanding-digital-twin
 featured: true
