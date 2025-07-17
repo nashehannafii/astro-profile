@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
   author: "Moch. Nasheh Annafii",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "MyAstro",
+  title: "Nasheh Annafii's Personal Blog",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
