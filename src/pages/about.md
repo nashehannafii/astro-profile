@@ -4,7 +4,7 @@ title: "About"
 ---
 
 <div>
-  <img src="/assets/profile.jpg" class="sm:w-1/2 mx-auto" alt="Moch. Nasheh Annafii">
+  <img src="/assets/profile.jpeg" class="sm:w-1/2 mx-auto" alt="Moch. Nasheh Annafii">
 </div>
 
 - Name: Moch. Nasheh Annafii
