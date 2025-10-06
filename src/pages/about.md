@@ -7,9 +7,9 @@ title: "About"
   <img src="/assets/profile.jpg" class="sm:w-1/2 mx-auto" alt="Moch. Nasheh Annafii">
 </div>
 
-- Nama: Moch. Nasheh Annafii
-- Pendidikan: Informatika, Universitas Darussalam Gontor, 2022
-- Jabatan: Peneliti dan Programmer, Universitas Darussalam Gontor
+- Name: Moch. Nasheh Annafii
+- Informatika, UNIDA Gontor, 2022
+- Researcher x Programmer, UNIDA Gontor
 
 ## Profil
 

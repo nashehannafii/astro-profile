@@ -9,11 +9,9 @@ draft: false
 tags:
   - mysql
   - tutorial
-description:
-  How to install MySql? Tutorial install 
+description: How to install MySql? Tutorial install
   MySql.
 ---
-
 
 ## Table of contents
 
@@ -31,38 +29,37 @@ Untuk menginstall MySQL di Ubuntu, ikuti langkah-langkah berikut:
 
 1. Update Daftar Paket:
 
-    Sebelum menginstal perangkat lunak baru, disarankan untuk memperbarui daftar paket agar mendapatkan versi terbaru.
+   Sebelum menginstal perangkat lunak baru, disarankan untuk memperbarui daftar paket agar mendapatkan versi terbaru.
 
-    ```ts
-    sudo apt update
-    ```
+   ```ts
+   sudo apt update
+   ```
 
 2. Install MySQL Server:
-    
-    Instal paket MySQL Server menggunakan apt.
 
-    ```ts
-    sudo apt install mysql-server
-    ```
+   Instal paket MySQL Server menggunakan apt.
+
+   ```ts
+   sudo apt install mysql-server
+   ```
 
 3. Verifikasi Instalasi MySQL:
-    
-    Untuk memastikan MySQL berjalan dengan baik, periksa status layanan MySQL.
 
-    ```ts
-    sudo systemctl status mysql
-    ```
+   Untuk memastikan MySQL berjalan dengan baik, periksa status layanan MySQL.
+
+   ```ts
+   sudo systemctl status mysql
+   ```
 
 Anda seharusnya melihat pesan yang menunjukkan bahwa MySQL aktif dan berjalan.
 
 4. Login ke MySQL:
 
-    Setelah menginstal dan mengamankan MySQL, Anda bisa login ke MySQL menggunakan akun root.
+   Setelah menginstal dan mengamankan MySQL, Anda bisa login ke MySQL menggunakan akun root.
 
-
-    ```ts
-    sudo mysql -u root -p
-    ```
+   ```ts
+   sudo mysql -u root -p
+   ```
 
 Masukkan kata sandi yang telah Anda atur selama proses keamanan.
 

@@ -3,8 +3,8 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
   author: "Moch. Nasheh Annafii",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "Nasheh Annafii's Personal Blog",
+  desc: "Nasheh's journal life",
+  title: "Nasheh's Journal",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
