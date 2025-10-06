@@ -6,14 +6,17 @@ import getPagination from "@utils/getPagination";
 import getUniqueTags from "@utils/getUniqueTags";
 
 export async function getStaticPaths() {
-  const posts = await getCollection("blog");
+  const blogPosts = await getCollection("blog");
+  const projectPosts = await getCollection("project");
 
-  const tags = getUniqueTags(posts);
+  const allPosts = [...blogPosts, ...projectPosts];
+
+  const tags = getUniqueTags(allPosts);
 
   return tags.map(({ tag, tagName }) => {
     return {
       params: { tag },
-      props: { tag, tagName, posts },
+      props: { tag, tagName, posts: allPosts },
     };
   });
 }

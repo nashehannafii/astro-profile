@@ -1,0 +1,45 @@
+---
+import type { CollectionEntry } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Main from "@layouts/Main.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import Pagination from "@components/Pagination.astro";
+import Card from "@components/Card";
+import { SITE } from "@config";
+
+export interface Props {
+  currentPage: number;
+  totalPages: number;
+  paginatedPosts?: CollectionEntry<"blog">[];
+  paginatedProjects?: CollectionEntry<"blog">[];
+}
+
+const { currentPage, totalPages, paginatedPosts, paginatedProjects } =
+  Astro.props;
+const projects = paginatedPosts ?? paginatedProjects ?? [];
+---
+
+<Layout title={`Projects | ${SITE.title}`}>
+  <Header activeNav="projects" />
+  <Main pageTitle="Projects" pageDesc="All the projects I've worked on.">
+    <ul class="projects-list">
+      {
+        projects.map(({ data, slug }) => (
+          <Card href={`/projects/${slug}/`} frontmatter={data} />
+        ))
+      }
+    </ul>
+  </Main>
+
+  <Pagination
+    {currentPage}
+    {totalPages}
+    prevUrl={currentPage > 2 ? `/projects/${currentPage - 1}/` : `/projects/`}
+    nextUrl={currentPage < totalPages
+      ? `/projects/${currentPage + 1}/`
+      : `/projects/`}
+  />
+
+  <Footer noMarginTop={totalPages > 1} />
+</Layout>
