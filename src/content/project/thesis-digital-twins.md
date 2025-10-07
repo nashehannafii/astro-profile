@@ -10,8 +10,8 @@ tags:
   - research
   - publication
   - conceptual
-  - digital twin
-description: Digital twin became the topic of my master's thesis.
+  - digital twins
+description: Digital twins became the topic of my master's thesis.
 ---
 
 ## Table of contents
