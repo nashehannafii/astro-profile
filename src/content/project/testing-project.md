@@ -2,14 +2,15 @@
 author: Nasheh Annafii
 pubDatetime: 2024-06-11T21:22:00Z
 modDatetime: 2024-06-11T23:12:47.400Z
-title: Testing Project
-slug: testing-project
+title: Thesis - Rice Leaf Segmentation
+slug: thesis-rice-leaf-segmentation
 featured: true
 draft: false
 tags:
   - research
-description: How to create user on MySql? Tutorial creating user on
-  MySql.
+  - computer vision
+  - publication
+description: I took the theme of computer vision for agriculture for my undergraduate thesis research.
 ---
 
 ## Table of contents
