@@ -11,8 +11,8 @@ import { SITE } from "@config";
 export interface Props {
   currentPage: number;
   totalPages: number;
-  paginatedPosts?: CollectionEntry<"blog">[];
-  paginatedProjects?: CollectionEntry<"blog">[];
+  paginatedPosts?: CollectionEntry<"blog" | "project">[];
+  paginatedProjects?: CollectionEntry<"blog" | "project">[];
 }
 
 const { currentPage, totalPages, paginatedPosts, paginatedProjects } =

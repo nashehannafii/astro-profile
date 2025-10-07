@@ -11,10 +11,13 @@ import getSortedPosts from "@utils/getSortedPosts";
 import { SOCIALS } from "@config";
 
 const posts = await getCollection("blog");
+const projects = await getCollection("project");
 
 const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
+
+const sortedProjects = getSortedPosts(projects);
 
 const socialCount = SOCIALS.filter(social => social.active).length;
 ---
@@ -49,7 +52,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         >
           Moch. Nasheh Annafii,
         </LinkButton>
-         a researcher and programmer from Universitas Darussalam Gontor.
+        a researcher and programmer from Universitas Darussalam Gontor.
       </p>
       <p>
         Read the blog posts or check
@@ -72,6 +75,39 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     </section>
 
     <Hr />
+
+    {
+      // Render projects first (if any) - limit to 3
+      sortedProjects.length > 0 && (
+        <>
+          <section id="featured">
+            <h2>Projects</h2>
+            <ul>
+              {sortedProjects.map(
+                ({ data, slug }, index) =>
+                  index < 3 && (
+                    <Card
+                      href={`/projects/${slug}/`}
+                      frontmatter={data}
+                      secHeading={false}
+                    />
+                  )
+              )}
+            </ul>
+
+            <div class="all-projects-btn-wrapper">
+              <LinkButton href="/projects/">
+                All Projects
+                <svg xmlns="http://www.w3.org/2000/svg">
+                  <path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z" />
+                </svg>
+              </LinkButton>
+            </div>
+          </section>
+          <Hr />
+        </>
+      )
+    }
 
     {
       featuredPosts.length > 0 && (
@@ -100,7 +136,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           <ul>
             {recentPosts.map(
               ({ data, slug }, index) =>
-                index < 4 && (
+                index < 3 && (
                   <Card
                     href={`/posts/${slug}/`}
                     frontmatter={data}

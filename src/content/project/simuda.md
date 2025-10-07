@@ -7,7 +7,7 @@ slug: simuda
 featured: true
 draft: false
 tags:
-  - publication
+  - intelectual property rights
 description: WebApp for UNIDA Gontor quality information system.
 ---
 
@@ -19,3 +19,7 @@ description: WebApp for UNIDA Gontor quality information system.
 2. Audit Mutu Internal (AMI)
 
 ## Preview
+
+## Intelectual Property Rights
+
+- Application number [EC00202307063](https://pdki-indonesia.dgip.go.id/detail/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855) (2022)

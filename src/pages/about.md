@@ -11,7 +11,7 @@ title: "About"
 - Informatika, UNIDA Gontor, 2022
 - Researcher x Programmer, UNIDA Gontor
 
-## Profil
+## Profile
 
 Hi im a researcher.
 
@@ -35,11 +35,11 @@ Berikut adalah daftar karya Moch. Nasheh Annafii yang telah tercatat dan dilindu
 1. [Sistem Informasi Mutu UNIDA (SIMUDA), No. Permohonan EC00202307063, No. Pencatatan 000439985](https://pdki-indonesia.dgip.go.id/detail/b3f002e3e89aaffb7d88f98f2e78af562172dd38bd2f44eed29272fc46f1ec26?nomor=EC00202307063&type=copyright&keyword=simuda%20gontor)
 2. [Buku Implementasi Teknologi Artificial Intelligence untuk Interdisipliner Ilmu](https://deepublishstore.com/produk/buku-implementasi-teknologi-artificial-intelligence-untuk-interdisipliner-ilmu/) -->
 
-### Kontak
+### Contacts
 
-- Email: [nashehannafii@unida.gontor.ac.id](mailto:nashehannafii@unida.gontor.ac.id)
-<!-- - ORCID: [Moch. Nasheh Annafii](https://orcid.org/0009-0003-1138-4054)
-- Scopus: [Moch. Nasheh Annafii](https://www.scopus.com/authid/detail.uri?authorId=58121886800) -->
+- Email : [nashehannafii@unida.gontor.ac.id](mailto:nashehannafii@unida.gontor.ac.id)
+- ORCID : [0009-0003-1138-4054](https://orcid.org/0009-0003-1138-4054)
+- Scopus: [58121886800](https://www.scopus.com/authid/detail.uri?authorId=58121886800)
 
 <!-- AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://github.com/nashehannafii).
 

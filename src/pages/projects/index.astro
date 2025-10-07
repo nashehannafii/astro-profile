@@ -2,17 +2,16 @@
 import { getCollection } from "astro:content";
 import Projects from "@layouts/Projects.astro";
 import getSortedPosts from "@utils/getSortedPosts";
-import getPagination from "@utils/getPagination";
 
 const projects = await getCollection("project");
 
 const sortedProjects = getSortedPosts(projects);
 
-const pagination = getPagination({
-  posts: sortedProjects,
-  page: 1,
-  isIndex: true,
-});
+const pagination = {
+  totalPages: 1,
+  currentPage: 1,
+  paginatedProjects: sortedProjects,
+};
 ---
 
 <Projects {...pagination} />

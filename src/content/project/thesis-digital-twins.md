@@ -1,9 +1,9 @@
 ---
 author: Nasheh Annafii
-pubDatetime: 2023-06-11T21:22:00Z
-modDatetime: 2023-06-11T23:12:47.400Z
-title: Thesis - Rice Leaf Segmentation
-slug: thesis-rice-leaf-segmentation
+pubDatetime: 2025-06-11T21:22:00Z
+modDatetime: 2025-06-11T23:12:47.400Z
+title: Thesis - Digital Twins
+slug: thesis-digital-twins
 featured: true
 draft: false
 tags:
@@ -11,7 +11,7 @@ tags:
   - publication
   - conceptual
   - digital twin
-description: Digital twin became the theme of my master's thesis.
+description: Digital twin became the topic of my master's thesis.
 ---
 
 ## Table of contents
@@ -26,4 +26,4 @@ description: Digital twin became the theme of my master's thesis.
 
 This research resulted in several publications:
 
-1. [Human Digital Twin Modeling for Cardiovascular System](https://journal.unnes.ac.id/journals/sji/article/view/16012) (Scientific Journal of Informatics, 2025), Author: Moch. Nasheh Annafii, Herman, Muhammad Kunta Biddinika
+- [Human Digital Twin Modeling for Cardiovascular System](https://journal.unnes.ac.id/journals/sji/article/view/16012) (Scientific Journal of Informatics, 2025), Author: Moch. Nasheh Annafii, Herman, Muhammad Kunta Biddinika, Fitriah
