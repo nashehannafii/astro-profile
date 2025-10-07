@@ -2,8 +2,8 @@
 author: Nasheh Annafii
 pubDatetime: 2024-03-11T21:22:00Z
 modDatetime: 2024-03-11T23:12:47.400Z
-title: Shortener - Free URL shortener
-slug: shortener
+title: ShortenLink - Free URL shortener
+slug: shorten-link
 featured: true
 draft: false
 tags:
@@ -15,7 +15,7 @@ description: Free WebApp URL shortener
 
 ## Features
 
-1. URL shortener
+1. Shorten link
 2. Click count
 
 ## Preview
