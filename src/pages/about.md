@@ -37,8 +37,8 @@ Berikut adalah daftar karya Moch. Nasheh Annafii yang telah tercatat dan dilindu
 
 ### Education
 
-- Bachelor Informatics, UNIDA Gontor (2022)
-- Master Student, Universitas Ahmad Dahlan (current)
+- Bachelor of Informatics, UNIDA Gontor (2022)
+- Master's Student in Informatics, Universitas Ahmad Dahlan (current)
 
 ### Contacts
 
