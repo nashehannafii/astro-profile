@@ -10,20 +10,25 @@ import getSortedPosts from "@utils/getSortedPosts";
 
 // Retrieve all published articles
 const posts = await getCollection("blog", ({ data }) => !data.draft);
-const sortedPosts = getSortedPosts(posts);
+const projects = await getCollection("project", ({ data }) => !data.draft);
 
-// List of items to search in
-const searchList = sortedPosts.map(({ data, slug }) => ({
+// combine posts and projects, sort by date
+const combined = [...projects, ...posts];
+const sortedPosts = getSortedPosts(combined);
+
+// List of items to search in (include collection so client can route correctly)
+const searchList = sortedPosts.map(({ data, slug, collection }) => ({
   title: data.title,
   description: data.description,
   data,
   slug,
+  collection,
 }));
 ---
 
 <Layout title={`Search | ${SITE.title}`}>
   <Header activeNav="search" />
-  <Main pageTitle="Search" pageDesc="Search any article ...">
+  <Main pageTitle="Search" pageDesc="Search any article/work ...">
     <SearchBar client:load searchList={searchList} />
   </Main>
   <Footer />

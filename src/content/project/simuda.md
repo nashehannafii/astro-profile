@@ -20,6 +20,10 @@ description: WebApp for UNIDA Gontor quality information system.
 
 ## Preview
 
+<div>
+  <img src="/assets/images/simuda.png" class="sm:w-1/1 mx-auto" alt="Moch. Nasheh Annafii">
+</div>
+
 ## Intelectual Property Rights
 
 - Application number [EC00202307063](https://pdki-indonesia.dgip.go.id/detail/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855) (2022)
