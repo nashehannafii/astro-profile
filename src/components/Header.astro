@@ -167,23 +167,26 @@ const { activeNav } = Astro.props;
   }
 
   nav {
-    @apply flex w-full flex-col items-center sm:ml-2 sm:flex-row sm:justify-end sm:space-x-4 sm:py-0;
+    @apply flex w-full flex-col items-center sm:ml-2 sm:flex-row sm:justify-center sm:space-x-4 sm:py-0;
   }
   nav ul {
-    @apply mt-4 grid w-44 grid-cols-2 grid-rows-4 gap-x-2 gap-y-2 sm:ml-0 sm:mt-0 sm:w-auto sm:gap-x-5 sm:gap-y-0;
+    /* Mobile: 5 columns so up to 5 icon-only items fit on one row */
+    @apply mt-4 grid w-full grid-cols-3 gap-x-2 gap-y-2 sm:ml-0 sm:mt-0 sm:w-auto sm:gap-x-5 sm:gap-y-0;
   }
+  /* By default, text/link items span all 5 columns so they remain full-width on mobile */
   nav ul li {
-    @apply col-span-2 flex items-center justify-center;
+    @apply col-span-5 flex items-center justify-center;
+  }
+  /* Detect items that contain an SVG (icon buttons/links) and make them occupy a single column */
+  nav ul li:has(svg) {
+    @apply col-span-1;
   }
   nav ul li a {
     @apply w-full px-4 py-3 text-center font-medium hover:text-skin-accent sm:my-0 sm:px-2 sm:py-1;
   }
-  nav ul li:nth-last-child(2) a {
-    @apply w-auto;
-  }
-  nav ul li:nth-last-child(1),
-  nav ul li:nth-last-child(2) {
-    @apply col-span-1;
+  /* For icon-only items, keep the link sizing compact */
+  nav ul li:has(svg) a {
+    @apply w-auto px-2 py-2;
   }
   nav a.active {
     @apply underline decoration-wavy decoration-2 underline-offset-4;
