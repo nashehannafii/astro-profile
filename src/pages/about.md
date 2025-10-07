@@ -8,8 +8,7 @@ title: "About"
 </div>
 
 - Name: Moch. Nasheh Annafii
-- Informatika, UNIDA Gontor, 2022
-- Master student, Universitas Ahmad Dahlan
+- Universitas Darussalam Gontor
 - [Computer vision](/tags/computer-vision/), [Digital twins](/tags/digital-twins/)
 
 ## Profile
@@ -35,6 +34,11 @@ Berikut adalah daftar karya Moch. Nasheh Annafii yang telah tercatat dan dilindu
 
 1. [Sistem Informasi Mutu UNIDA (SIMUDA), No. Permohonan EC00202307063, No. Pencatatan 000439985](https://pdki-indonesia.dgip.go.id/detail/b3f002e3e89aaffb7d88f98f2e78af562172dd38bd2f44eed29272fc46f1ec26?nomor=EC00202307063&type=copyright&keyword=simuda%20gontor)
 2. [Buku Implementasi Teknologi Artificial Intelligence untuk Interdisipliner Ilmu](https://deepublishstore.com/produk/buku-implementasi-teknologi-artificial-intelligence-untuk-interdisipliner-ilmu/) -->
+
+### Education
+
+- Bachelor Informatics, UNIDA Gontor (2022)
+- Master Student, Universitas Ahmad Dahlan (current)
 
 ### Contacts
 
