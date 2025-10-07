@@ -9,7 +9,8 @@ title: "About"
 
 - Name: Moch. Nasheh Annafii
 - Informatika, UNIDA Gontor, 2022
-- Researcher x Programmer, UNIDA Gontor
+- Master student, Universitas Ahmad Dahlan
+- Computer vision, Digital twins
 
 ## Profile
 
