@@ -22,28 +22,28 @@ description: What is a Cyber-Physical System (CPS)? How does it work, and how is
 
 ## Introduction
 
-Do you know **automation in industrial manufacturing**? If so, you’ve already witnessed one form of Cyber-Physical Systems (CPS) in action. But CPS goes far beyond robots on a production line—it’s a deeper, more revolutionary integration of the physical and digital worlds.
+Do you know **automation in industrial manufacturing**? If so, you’ve already witnessed one form of Cyber-Physical Systems (CPS) in action. But CPS goes far beyond robots on a production line—it’s a deeper, more revolutionary integration of the physical and digital worlds [[1]](https://doi.org/10.1007/978-3-642-54477-4).
 
-A **Cyber-Physical System (CPS)** is an intelligent system where computational algorithms, networking, and physical processes are tightly integrated. These systems enable physical objects to sense, communicate, act, and even learn from their environment in real time. In the simplest terms, CPS gives a "digital brain" to a "physical body."
+A **Cyber-Physical System (CPS)** is an intelligent system where computational algorithms, networking, and physical processes are tightly integrated [[2]](https://doi.org/10.1016/C2015-0-00708-0). These systems enable physical objects to sense, communicate, act, and even learn from their environment in real time [[1]](https://doi.org/10.1007/978-3-642-54477-4). In the simplest terms, CPS gives a "digital brain" to a "physical body."
 
-CPS has become the backbone of the **Fourth Industrial Revolution (Industry 4.0)**, transforming everything from manufacturing and energy management to healthcare and transportation. Let’s break down how this remarkable system works.
+CPS has become the backbone of the **Fourth Industrial Revolution (Industry 4.0)**, transforming everything from manufacturing and energy management to healthcare and transportation. Let’s break down how this remarkable system works [[1](https://doi.org/10.1007/978-3-642-54477-4),[2](https://doi.org/10.1016/C2015-0-00708-0)].
 
 ## How Cyber-Physical Systems Work: A Continuous Loop
 
-A CPS operates through a continuous cycle consisting of four core components. Think of it like the nervous and muscular systems of the human body.
+A CPS operates through a continuous cycle consisting of four core components. Think of it like the nervous and muscular systems of the human body [[1]](https://doi.org/10.1007/978-3-642-54477-4).
 
 ### Sensing: The Eyes and Ears of the System
 
-The first step is **sensing**. Sensors act as the "senses" of the CPS, continuously collecting raw data from the physical environment.
+The first step is **sensing**. Sensors act as the "senses" of the CPS, continuously collecting raw data from the physical environment [[1]](https://doi.org/10.1007/978-3-642-54477-4).
 
-- **Function**: Sensors measure various conditions such as temperature, pressure, motion, humidity, proximity, and even visual imagery.
-- **Example**: In autonomous vehicles, LiDAR and camera sensors scan the road to detect obstacles, traffic signs, and other vehicles. In agriculture, soil moisture sensors measure water content to optimize irrigation.
+- **Function**: Sensors measure various conditions such as temperature, pressure, motion, humidity, proximity, and even visual imagery [[1]](https://doi.org/10.1007/978-3-642-54477-4).
+- **Example**: In autonomous vehicles, LiDAR and camera sensors scan the road to detect obstacles, traffic signs, and other vehicles. In agriculture, soil moisture sensors measure water content to optimize irrigation [[2]](https://doi.org/10.1016/C2015-0-00708-0).
 
 ### Computation: The Digital Brain
 
 Raw data from sensors flows into the **computation** stage. This is where the "magic" happens—data is transformed into intelligent decisions.
 
-- **Function**: Processors—often embedded systems or real-time computing units—analyze the data using complex algorithms, computational models, and even Artificial Intelligence (AI). This stage answers the question: "What should be done next?"
+- **Function**: Processors—often embedded systems or real-time computing units—analyze the data using complex algorithms, computational models, and even Artificial Intelligence (AI) [[1](https://doi.org/10.1007/978-3-642-54477-4),[2](https://doi.org/10.1016/C2015-0-00708-0)]. This stage answers the question: "What should be done next?"
 - **Example**: After receiving temperature data, an algorithm in a smart factory might predict that a machine will overheat within two hours and recommend adjusting its operating speed.
 
 ### Actuation: The Moving Hands
@@ -87,12 +87,12 @@ CPS is no longer a futuristic concept—it’s already here:
 
 ## Challenges and the Future of CPS
 
-Despite its promise, CPS development faces significant challenges. **Cybersecurity** is paramount, as a cyberattack can have direct physical consequences, damaging equipment, disrupting services, or endangering lives. Additionally, integration complexity and high implementation costs remain barriers.
+Despite its promise, CPS development faces significant challenges. **Cybersecurity** is paramount, as a cyberattack can have direct physical consequences, damaging equipment, disrupting services, or endangering lives [[2]](https://doi.org/10.1016/C2015-0-00708-0). Additionally, integration complexity and high implementation costs remain barriers.
 
-Looking ahead, CPS will become even smarter, driven by AI, edge computing, and technologies like **digital twins**—virtual replicas of physical objects. These advancements will enable autonomous systems that not only react to their environment but also predict changes and adapt proactively.
+Looking ahead, CPS will become even smarter, driven by AI, edge computing, and technologies like **digital twins**—virtual replicas of physical objects [[2]](https://doi.org/10.1016/C2015-0-00708-0). These advancements will enable autonomous systems that not only react to their environment but also predict changes and adapt proactively.
 
 ## Conclusion
 
 So, **can you build one?** Creating a full-scale, complex CPS requires deep multidisciplinary expertise. However, understanding its core concepts—**Sensing, Computation, Actuation, and Networking**—is the essential first step.
 
-Cyber-Physical Systems represent the seamless fusion of nature and bits, atoms and data. They are more than just technology—they are a new paradigm for engineering our interaction with the physical world. As technology continues to evolve, CPS will undoubtedly play an increasingly central role in shaping a more efficient, safe, and automated future.
+Cyber-Physical Systems represent the seamless fusion of nature and bits, atoms and data. They are more than just technology—they are a new paradigm for engineering our interaction with the physical world [[2]](https://doi.org/10.1016/C2015-0-00708-0). As technology continues to evolve, CPS will undoubtedly play an increasingly central role in shaping a more efficient, safe, and automated future.
