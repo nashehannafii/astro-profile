@@ -5,7 +5,15 @@ import LinkButton from "./LinkButton.astro";
 import ProfileButton from "./ProfileButton.astro";
 
 export interface Props {
-  activeNav?: "posts" | "tags" | "about" | "projects" | "search";
+  activeNav?:
+    | "posts"
+    | "tags"
+    | "about"
+    | "projects"
+    | "search"
+    | "gallery"
+    | "courses"
+    | "support";
 }
 
 const { activeNav } = Astro.props;
@@ -142,6 +150,28 @@ const { activeNav } = Astro.props;
         </ul>
       </nav>
     </div>
+    <!-- Submenu: gallery, courses, support -->
+    <div class="sub-nav-wrap">
+      <nav class="sub-nav" aria-label="Sub navigation">
+        <ul>
+          <li>
+            <a href="/gallery/" class={activeNav === "gallery" ? "active" : ""}>
+              Gallery
+            </a>
+          </li>
+          <li>
+            <a href="/courses/" class={activeNav === "courses" ? "active" : ""}>
+              Courses
+            </a>
+          </li>
+          <li>
+            <a href="/support/" class={activeNav === "support" ? "active" : ""}>
+              Support
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </div>
   <Hr />
 </header>
@@ -151,10 +181,23 @@ const { activeNav } = Astro.props;
     @apply absolute -top-full left-16 z-50 bg-skin-accent px-3 py-2 text-skin-inverted transition-all focus:top-4;
   }
   .nav-container {
-    @apply mx-auto flex max-w-3xl flex-col items-center justify-between sm:flex-row;
+    /* Keep header blocks stacked so submenu always sits below the top-nav */
+    @apply mx-auto flex max-w-3xl flex-col items-center justify-between;
   }
   .top-nav-wrap {
-    @apply relative flex w-full items-start justify-between p-4 sm:items-center sm:py-8;
+    @apply relative flex w-full items-start justify-between p-4 sm:items-center sm:py-4;
+  }
+
+  .sub-nav-wrap {
+    @apply w-full px-4 pb-2 sm:pb-3;
+  }
+
+  .sub-nav ul {
+    @apply m-0 flex w-full items-center justify-center gap-x-4 list-none;
+  }
+
+  .sub-nav ul li a {
+    @apply inline-block px-3 py-2 text-sm font-medium hover:text-skin-accent;
   }
   .logo {
     @apply absolute py-1 text-xl font-semibold sm:static sm:text-2xl;
@@ -170,16 +213,21 @@ const { activeNav } = Astro.props;
     @apply flex w-full flex-col items-center sm:ml-2 sm:flex-row sm:justify-center sm:space-x-4 sm:py-0;
   }
   nav ul {
-    /* Mobile: 5 columns so up to 5 icon-only items fit on one row */
-    @apply mt-4 grid w-full grid-cols-3 gap-x-2 gap-y-2 sm:ml-0 sm:mt-0 sm:w-auto sm:gap-x-5 sm:gap-y-0;
+    /* Mobile: use flex-wrap and center so variable number of items (icons/text) are centered;
+       on sm+ screens use a horizontal centered layout */
+    @apply mt-2 flex flex-wrap justify-center gap-x-2 gap-y-2 sm:ml-0 sm:mt-0 sm:w-auto sm:flex-row sm:justify-center sm:gap-x-5 sm:gap-y-0;
   }
-  /* By default, text/link items span all 5 columns so they remain full-width on mobile */
+  /* By default, text/link items take full width on mobile so they remain stacked */
   nav ul li {
-    @apply col-span-5 flex items-center justify-center;
+    @apply w-full flex items-center justify-center;
   }
-  /* Detect items that contain an SVG (icon buttons/links) and make them occupy a single column */
+  /* Make text-only menu items (no SVG) auto-width so they lay out horizontally */
+  nav ul li:not(:has(svg)) {
+    @apply w-auto;
+  }
+  /* Icon-only items should be compact and size to content */
   nav ul li:has(svg) {
-    @apply col-span-1;
+    @apply w-auto;
   }
   nav ul li a {
     @apply w-full px-4 py-3 text-center font-medium hover:text-skin-accent sm:my-0 sm:px-2 sm:py-1;
@@ -187,6 +235,18 @@ const { activeNav } = Astro.props;
   /* For icon-only items, keep the link sizing compact */
   nav ul li:has(svg) a {
     @apply w-auto px-2 py-2;
+  }
+  /* Submenu specific overrides: make submenu horizontal and items auto-width */
+  .sub-nav ul {
+    @apply m-0 flex w-full items-center justify-center gap-x-6 list-none;
+  }
+
+  .sub-nav ul li {
+    @apply w-auto;
+  }
+
+  .sub-nav ul li a {
+    @apply inline-block px-3 py-2 text-sm font-medium hover:text-skin-accent;
   }
   nav a.active {
     @apply underline decoration-wavy decoration-2 underline-offset-4;
