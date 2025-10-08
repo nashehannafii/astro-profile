@@ -83,6 +83,12 @@ Documentation can be read in two formats\_ _markdown_ & _blog post_.
 - Customize Color Schemes - [markdown](src/content/blog/customizing-astropaper-theme-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/)
 - Predefined Color Schemes - [markdown](src/content/blog/predefined-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/predefined-color-schemes/)
 
+## Courses (custom)
+
+This site includes a simple course feature. Course content lives in `src/content/course/` as markdown files. Each course supports multiple `stages`, and each stage can include an optional `quiz` (simple multiple-choice) rendered client-side.
+
+Create a course by adding a markdown file under `src/content/course/` following the sample `intro-to-astro.md`.
+
 > For AstroPaper v1, check out [this branch](https://github.com/satnaing/astro-paper/tree/astro-paper-v1) and this [live URL](https://astro-paper-v1.astro-paper.pages.dev/)
 
 ## 💻 Tech Stack

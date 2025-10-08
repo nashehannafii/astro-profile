@@ -1,3 +1,3 @@
 git add .
-git commit -m "Update shotener.md and Projects.astro"
+git commit -m "update"
 git push origin master

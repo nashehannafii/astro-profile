@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/SupportLayout.astro
-title: "Support with saweria"
+title: "Support me with saweria"
 ---
 
 ### Tell me what project should I do?
