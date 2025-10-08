@@ -1,7 +1,7 @@
 ---
 author: Nasheh Annafii
-pubDatetime: 2025-10-08T02:00:00Z
-modDatetime: 2025-10-08T02:47:40Z
+pubDatetime: 2025-10-08T01:00:00Z
+modDatetime: 2025-10-08T01:47:40Z
 title: Cyber-Physical Systems - The Revolution at Our Fingertips
 slug: cyber-physical-system
 featured: true
