@@ -9,7 +9,6 @@ draft: false
 tags:
   - mysql
   - tutorial
-  - publication
 description: How to create user on MySql? Tutorial creating user on
   MySql.
 ---
