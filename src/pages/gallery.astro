@@ -1,0 +1,79 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import { GALLERY_EXCLUDE } from "@config";
+
+// Read images from public/assets/images at build time
+const fs = await import("fs");
+const path = await import("path");
+
+// Resolve images directory relative to project root so it works during dev and build
+const imagesDir = path.join(process.cwd(), "public", "assets", "images");
+
+let files: string[] = [];
+try {
+  files = fs.readdirSync(imagesDir).filter(f => {
+    const lower = f.toLowerCase();
+    return (
+      /\.(png|jpe?g|webp|svg)$/i.test(lower) && !GALLERY_EXCLUDE.includes(f)
+    );
+  });
+} catch (e) {
+  // Fallback: empty list if folder not found
+  files = [];
+}
+
+// sort alphabetically
+files.sort();
+
+const frontmatter = {
+  title: "Gallery",
+};
+---
+
+<Layout title={`${frontmatter.title}`}>
+  <Header activeNav="gallery" />
+  <Breadcrumbs />
+
+  <main id="main-content">
+    <section id="gallery" class="mb-28">
+      <div class="max-w-6xl mx-auto px-4">
+        <header class="mb-8 text-center">
+          <h1 class="text-3xl font-semibold tracking-wide sm:text-4xl">
+            {frontmatter.title}
+          </h1>
+          <p class="mt-2 text-sm text-muted-foreground">
+            Auto-generated from <code>/public/assets/images</code>
+          </p>
+        </header>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+          {
+            files.length === 0 ? (
+              <div class="text-center text-muted">
+                No images found in <code>/public/assets/images</code>
+              </div>
+            ) : (
+              files.map(file => (
+                <figure class="rounded-lg overflow-hidden bg-card shadow-sm hover:shadow-md transition-shadow duration-200">
+                  <img
+                    src={`/assets/images/${file}`}
+                    alt={file}
+                    class="w-full h-48 object-cover transform hover:scale-105 transition-all duration-300"
+                  />
+                  <figcaption class="p-3 text-sm text-center">
+                    {file}
+                  </figcaption>
+                </figure>
+              ))
+            )
+          }
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

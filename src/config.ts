@@ -145,3 +145,7 @@ export const SOCIALS: SocialObjects = [
     active: false,
   },
 ];
+
+// Filenames to exclude from the gallery page (files live in `public/assets/images`)
+// Example: ['profile.jpg', 'logo.svg']
+export const GALLERY_EXCLUDE: string[] = ["saweria.png"];
