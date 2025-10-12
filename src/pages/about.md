@@ -4,7 +4,7 @@ title: "About"
 ---
 
 <div>
-  <img src="/assets/profile.jpeg" class="sm:w-1/2 mx-auto" alt="Moch. Nasheh Annafii">
+  <img src="/assets/profile.jpeg" class="sm:w-1/2 mx-auto rounded-full" alt="Moch. Nasheh Annafii">
 </div>
 
 - Name: Moch. Nasheh Annafii
@@ -37,7 +37,7 @@ Berikut adalah daftar karya Moch. Nasheh Annafii yang telah tercatat dan dilindu
 
 ### Education
 
-- Bachelor of Informatics, UNIDA Gontor (2022)
+- Bachelor of Informatics, Universitas Darussalam Gontor (2022)
 - Master's Student in Informatics, Universitas Ahmad Dahlan (current)
 
 ### Contacts
