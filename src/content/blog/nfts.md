@@ -2,7 +2,7 @@
 author: Nasheh Annafii
 pubDatetime: 2025-10-12T09:00:00Z
 modDatetime: 2025-10-12T09:00:00Z
-title: NFTs — Beyond JPEGs: Standards, Marketplaces, and Tradeoffs
+title: NFTs — Beyond JPEGs - Standards, Marketplaces, and Tradeoffs
 slug: nfts
 featured: false
 draft: false
@@ -10,7 +10,7 @@ tags:
   - nft
   - blockchain
   - web3
-description: An approachable guide to NFTs: what they are, token standards, marketplaces, security risks, and environmental/societal tradeoffs.
+description: An approachable guide to NFTs - what they are, token standards, marketplaces, security risks, and environmental/societal tradeoffs.
 ---
 
 # NFTs — Beyond JPEGs: Standards, Marketplaces, and Tradeoffs
