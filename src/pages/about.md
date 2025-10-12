@@ -13,7 +13,7 @@ title: "About"
 
 ## Profile
 
-Hi im a rookie researcher.
+Hi, I’m a rookie researcher.
 
 <!--
 1. [Semantic Segmentation of Rice Leaf Blast Disease using Optimized U-Net](https://ieeexplore.ieee.org/document/10037550) (International Conference on Computer Engineering, Network and Intelligent Multimedia, 2022)​
