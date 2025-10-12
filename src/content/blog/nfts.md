@@ -2,7 +2,7 @@
 author: Nasheh Annafii
 pubDatetime: 2025-10-12T09:00:00Z
 modDatetime: 2025-10-12T09:00:00Z
-title: NFTs — Beyond JPEGs - Standards, Marketplaces, and Tradeoffs
+title: NFTs — Beyond JPEGs
 slug: nfts
 featured: false
 draft: false
