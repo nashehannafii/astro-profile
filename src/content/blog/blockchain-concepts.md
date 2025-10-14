@@ -1,7 +1,7 @@
 ---
 author: Nasheh Annafii
-pubDatetime: 2025-10-14T11:00:00Z
-modDatetime: 2025-10-14T11:00:00Z
+pubDatetime: 2025-10-14T00:00:00Z
+modDatetime: 2025-10-14T00:00:00Z
 title: Blockchain Concepts — A Practical Conceptual Guide
 slug: blockchain-concepts
 featured: false
