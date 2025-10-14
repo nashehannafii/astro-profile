@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" width="800" height="160">
+  <style>
+    .block { fill: #0f172a; stroke: #94a3b8; stroke-width: 2; }
+    .text { fill: #e6eef8; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; font-size: 12px; }
+    .hash { fill: #cbd5e1; font-size: 10px; }
+    .arrow { stroke: #60a5fa; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#60a5fa" />
+    </marker>
+  </defs>
+
+  <!-- Block 1 -->
+  <rect x="20" y="24" width="180" height="112" rx="6" class="block" />
+  <text x="30" y="52" class="text">Block #100</text>
+  <text x="30" y="74" class="hash">prev: 0000000000000000</text>
+  <text x="30" y="96" class="hash">merkle: a1b2c3d4</text>
+
+  <!-- Arrow 1 -->
+  <path d="M200 80 L260 80" class="arrow" />
+
+  <!-- Block 2 -->
+  <rect x="260" y="24" width="180" height="112" rx="6" class="block" />
+  <text x="270" y="52" class="text">Block #101</text>
+  <text x="270" y="74" class="hash">prev: a1b2c3d4</text>
+  <text x="270" y="96" class="hash">merkle: e5f6g7h8</text>
+
+  <!-- Arrow 2 -->
+  <path d="M440 80 L500 80" class="arrow" />
+
+  <!-- Block 3 -->
+  <rect x="500" y="24" width="180" height="112" rx="6" class="block" />
+  <text x="510" y="52" class="text">Block #102</text>
+  <text x="510" y="74" class="hash">prev: e5f6g7h8</text>
+  <text x="510" y="96" class="hash">merkle: 9i0j1k2l</text>
+
+</svg>

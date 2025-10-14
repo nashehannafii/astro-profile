@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320">
+  <style>
+    .node { fill: #0f172a; stroke: #94a3b8; stroke-width: 2; }
+    .text { fill: #e6eef8; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; font-size: 11px; }
+    .line { stroke: #60a5fa; stroke-width: 1.6; }
+  </style>
+
+  <!-- Leaves -->
+  <rect x="40" y="220" width="80" height="36" rx="6" class="node" />
+  <text x="48" y="244" class="text">tx A (h1)</text>
+
+  <rect x="160" y="220" width="80" height="36" rx="6" class="node" />
+  <text x="168" y="244" class="text">tx B (h2)</text>
+
+  <rect x="280" y="220" width="80" height="36" rx="6" class="node" />
+  <text x="288" y="244" class="text">tx C (h3)</text>
+
+  <rect x="400" y="220" width="80" height="36" rx="6" class="node" />
+  <text x="408" y="244" class="text">tx D (h4)</text>
+
+  <!-- Level 1 -->
+  <rect x="100" y="140" width="120" height="36" rx="6" class="node" />
+  <text x="116" y="164" class="text">h12 = H(h1,h2)</text>
+
+  <rect x="300" y="140" width="120" height="36" rx="6" class="node" />
+  <text x="316" y="164" class="text">h34 = H(h3,h4)</text>
+
+  <!-- Root -->
+  <rect x="190" y="60" width="120" height="36" rx="6" class="node" />
+  <text x="206" y="84" class="text">root = H(h12,h34)</text>
+
+  <!-- Lines -->
+  <path d="M80 220 L160 176" class="line" />
+  <path d="M200 220 L200 176" class="line" />
+  <path d="M320 220 L320 176" class="line" />
+  <path d="M440 220 L360 176" class="line" />
+  <path d="M160 140 L250 96" class="line" />
+  <path d="M360 140 L310 96" class="line" />
+
+</svg>
