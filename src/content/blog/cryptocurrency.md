@@ -1,7 +1,7 @@
 ---
 author: Nasheh Annafii
-pubDatetime: 2025-10-13T09:00:00Z
-modDatetime: 2025-10-13T09:00:00Z
+pubDatetime: 2025-10-13T11:00:00Z
+modDatetime: 2025-10-13T11:00:00Z
 title: Cryptocurrency — A Short Beginner's Guide
 slug: cryptocurrency
 featured: false
@@ -12,7 +12,7 @@ tags:
   - bitcoin
   - ethereum
   - finance
-description: A concise English guide about what cryptocurrency is, how it works, the main risks, wallets, exchanges, and practical steps to get started safely.
+description: What is cryptocurrency, how it works, the main risks, wallets, exchanges, and practical steps to get started safely.
 ---
 
 # Cryptocurrency — A Short Beginner's Guide
