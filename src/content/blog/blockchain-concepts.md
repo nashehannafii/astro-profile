@@ -10,7 +10,7 @@ tags:
   - blockchain
   - distributed-systems
   - consensus
-description: Conceptual guide to blockchain fundamentals: ledgers, blocks, consensus, finality, smart contracts, and design tradeoffs.
+description: Conceptual guide to blockchain fundamentals - ledgers, blocks, consensus, finality, smart contracts, and design tradeoffs.
 ---
 
 # Blockchain Concepts — A Practical Conceptual Guide
