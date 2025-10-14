@@ -1,7 +1,7 @@
 ---
 author: Nasheh Annafii
-pubDatetime: 2025-10-14T09:00:00Z
-modDatetime: 2025-10-14T09:00:00Z
+pubDatetime: 2025-10-13T09:00:00Z
+modDatetime: 2025-10-13T09:00:00Z
 title: Cryptocurrency — A Short Beginner's Guide
 slug: cryptocurrency
 featured: false
