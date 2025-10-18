@@ -11,7 +11,7 @@ tags:
   - iot
   - data-engineering
   - modeling
-description: Practical preparation steps and checklist for teams starting a digital twin project: scoping, data requirements, infrastructure, modeling choices, validation, and team roles.
+description: Practical preparation steps and checklist for teams starting a digital twin project - scoping, data requirements, infrastructure, modeling choices, validation, and team roles.
 ---
 
 # Preparing to Build a Digital Twin — Practical Checklist
